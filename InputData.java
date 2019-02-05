@@ -6,7 +6,8 @@ public class input {
 
   public Scanner new=reader Scanner(System.in);
   public static void main(String[] args){
-  
+    
+    // Input
     System.out.println("----- INPUT -----");
     
     System.out.print("Enter Name: ");
@@ -21,6 +22,7 @@ public class input {
     String input=reader.nextLine();
     char gender=input.charAt(0);
     
+    // Output
     System.out.println("----- OUTPUT -----");
     
     System.out.println("Name: "+name);
