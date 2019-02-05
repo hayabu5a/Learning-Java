@@ -14,6 +14,11 @@ Use BODMAS
 6 - (--,++ after)
 */
   
+/*
+++n=n++ --> n=n+1;
+--n=n-- --> n=n-1;
+*/
+  
   public static void main(String[] args){
   
   int n1=5;
