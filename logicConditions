@@ -1,0 +1,32 @@
+package mainpackage;
+
+public class Logic {
+     /*
+            Logic Operations (>, >=, <, <=, ==, !=)
+            Logic Gates (&&, ||, !)
+            Truth Table
+     */
+     
+    public static void main(String[] args){
+
+       // AND Gate (Only True and True = True otherwise False)
+
+        System.out.println( (3<9) && (4>=4));
+
+        // OR Gate (Only False and False = False otherwise True)
+
+        System.out.println( (3>2) || (6<4));
+
+        // NOT Gate [Not(True)=False, Not(False)=True]
+
+        System.out.println(!(3>1));
+
+    }
+}
+
+/*
+- OUTPUT
+true
+true
+false
+*/
